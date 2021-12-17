@@ -1,7 +1,7 @@
 # 2021_Object_Detection_Contest
 
 
-# What Is YOLO?
+## What Is YOLO?
 
 YOLO stands for **Y**ou **O**nly **L**ook **O**nce and is an extremely fast object detection framework using a single convolutional network. YOLO is frequently faster than other object detection systems because it looks at the *entire* image at once as opposed to sweeping it pixel-by-pixel.
 
