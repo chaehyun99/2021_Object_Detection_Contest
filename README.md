@@ -1,6 +1,5 @@
 # 2021_Object_Detection_Contest
 
----
 
 # What Is YOLO?
 
@@ -11,10 +10,6 @@ YOLO does this by breaking an image into a grid, and then each section of the gr
 Generally, classification-based algorithms are completed in two steps: first, selecting the **R**egion **O**f **I**nterest (ROI), then applying the **c**onvolutional **n**eural **n**etwork (CNN) to the regions selected to detect object(s).
 
 YOLO's regression algorithm predicts the bounding boxes for the whole image at once, which is what makes it dramatically faster and gives it the clever name to boot.
-
-- **Creating Bounding Boxes With YOLOv5 On Your Webcam**
-
-![https://api.wandb.ai/files/onlineinference/images/projects/461118/e1eb2261.gif](https://api.wandb.ai/files/onlineinference/images/projects/461118/e1eb2261.gif)
 
 - **Creating Bounding Boxes With YOLOv5 On An Image**
 
@@ -34,8 +29,8 @@ YOLO's regression algorithm predicts the bounding boxes for the whole image at o
 |    |--contest_testdata
 |    |--runs 
         |    |--detect 
-				        |    |--exp'#' 
-								        |    |--contest_format
+		|    |--exp'#' 
+			|    |--contest_format
 
         |    |--train
 
