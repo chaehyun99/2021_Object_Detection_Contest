@@ -36,14 +36,14 @@ YOLO's regression algorithm predicts the bounding boxes for the whole image at o
 |    |--contest_testdata
 |    |--runs 
         |    |--detect 
-				 |    |--exp'#' 
-						 |    |--contest_format
+		|    |--exp'#' 
+		        |    |--contest_format
 
         |    |--train
 
 |    |--train.py
 |    |--inference.py
-|    |--lastv3.pt
+|    |--best.pt
 ```
 
 - `ex_train_dataset` : ‘train.py’ 실행 시 학습 과정을 보여주기 위한 샘플 데이터셋 디렉토리
@@ -61,7 +61,7 @@ YOLO's regression algorithm predicts the bounding boxes for the whole image at o
 
 - `train.py` : 학습 데이터를 입력으로 하여 모델을 학습시킴
 
-- `lastv3.pt` : 모델 학습의 최종결과, weight
+- `best.pt` : 모델 학습의 최종결과, weight
 
     
 
